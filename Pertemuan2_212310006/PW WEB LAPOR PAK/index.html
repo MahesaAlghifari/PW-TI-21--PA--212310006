@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Polisi - Lapor Kejahatan</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+<style>
+  
+</style>
+
+  <body>
+
+    <header>
+      <h1>Lapor Pak</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Beranda</a></li>
+          <li><a href="#">Lapor Kejahatan</a></li>
+          <li><a href="#">Tentang Kami</a></li>
+          <li><a href="#">Kontak</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="jumbotron">
+      <h1>Segera Lapor Keresahan Anda!</h1>
+      <p>Laporan diproses jika sudah bayar!</p>
+    </div>
+
+
+    <main>
+      <section id="lapor">
+        <h2>Lapor Kejahatan</h2>
+        <form>
+          <label for="jenis-kejahatan">Jenis Kejahatan:</label>
+          <select id="jenis-kejahatan" name="jenis-kejahatan">
+            <option value="pencurian">Pencurian</option>
+            <option value="perampokan">Perampokan</option>
+            <option value="pemerkosaan">Pemerkosaan</option>
+            <option value="pembunuhan">Pembunuhan</option>
+            <option value="lainnya">Lainnya</option>
+          </select>
+          <label for="deskripsi">Deskripsi:</label>
+          <textarea id="deskripsi" name="deskripsi" rows="5"></textarea>
+          <label for="lokasi">Lokasi Kejadian:</label>
+          <input type="text" id="lokasi" name="lokasi">
+          <button type="submit">Kirim Laporan</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Polisi - Lapor Kejahatan</p>
+    </footer>
+  </body>
+</html>
